@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000;
+}
+.planet-page { 
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+  }
+  #earth {
+  background-image: url('https://encrypted-tbn3.google.com/images?q=tbn:ANd9GcTQqoB4xBnIkmUg5pxDyYW2h0Q1pRTsbQBOfhg-E-y4iLFicsyi');
+  width: 70px;
+  height: 70px;
+  /* a black shadow from left and white from right */
+  box-shadow: inset 16px 0 40px 3px rgba(0,0,0,0.9),
+    inset -3px 0 5px 2px rgba(255,255,255,0.16);
+  background-size: 190px;
+  margin: 80px auto;
+  border-radius: 50%;
+  position: relative;
+  top: 7px;
+  animation-name: move,scale,rotate;
+  animation-duration: 4s,4s,4s;
+  animation-iteration-count: infinite,infinite,infinite;
+  animation-timing-function: ease-in-out,linear,linear;
+  }
+  
+  @keyframes move {
+  0%   { left: 200px;  }  
+  70%  { left: -200px; }
+  100% { left: 200px;  }
+  }
+  
+  @keyframes scale {
+  0%  { transform: scale(1);   }
+  32% { transform: scale(0.4); animation-timing-function:  ease-in; }
+  70% { transform: scale(1); animation-timing-function:  ease-in;  }
+  75% { transform: scale(1.2);  animation-timing-function:  ease-in-out; }
+  86% { transform: scale(2);  }  
+  98% { transform: scale(1.2); }
+  100%{ transform: scale(1); }
+  }
+  
+  @keyframes rotate {
+  0% { background-position: 0px; }
+  100% { background-position: 190px; }
+  }
+  
+  /* Stars 
+  ------------------------------------- */
+  #space, .stars {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+  
+  .stars {
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  animation: zoom 5s infinite;
+  opacity: 0;
+  }
+  
+  .stars:nth-child(1) {
+  background-position: 50% 50%;
+  animation-delay: 0s;
+  }
+  .stars:nth-child(2) {
+  background-position: 20% 60%;
+  animation-delay: 1s;
+  }
+  .stars:nth-child(3) {
+  background-position: -20% -30%;
+  animation-delay: 2s;
+  }
+  .stars:nth-child(4) {
+  background-position: 40% -80%;
+  animation-delay: 3s;
+  }
+  .stars:nth-child(5) {
+  background-position: -20% 30%;
+  animation-delay: 4s;
+  }
+  
+  @keyframes zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    animation-timing-function: ease-in;
+  } 
+  85% {
+    opacity: 1;
+    transform: scale(2.8);
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
+  }
+  

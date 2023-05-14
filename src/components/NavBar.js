@@ -6,6 +6,7 @@ export default function NavBar() {
     <div>
       <ul>
         <Link to="/">Take Me Home</Link>
+        <Link to="/planet">See the planets!</Link>
       </ul>
     </div>
   );

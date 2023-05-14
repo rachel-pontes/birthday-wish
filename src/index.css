@@ -6,8 +6,99 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#birthday-card {
+  border: 2px solid black;
+}
+.poem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.play-btn {
+  /* background-image: url("./img/star-pic.png"); */
+  width: 50px;
+}
+.main-text {
+  color: white;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+.star {
+  height: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.first-happy {
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+  color: #DB0E0E;
+}
+.second-happy {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #CC871F
+}
+.third-happy {
+  display: flex;
+  justify-content: right;
+  font-size: 40px;
+  margin-right: 200px;
+  color: #DDB72F
+}
+.details {
+  display: flex;
+  justify-content: center;
+}
+.inputs {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.input-box {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+.descriptors {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  margin: 8px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 12px;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
