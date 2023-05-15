@@ -4,9 +4,9 @@
 
 This program is a space themed birthday card. The first page asks you to input your name and birthday. The second page displays a six-line birthday poem written for you. The last page has an orbiting sphere with the 'NASA Picture of the Day' taken the day you were born rotated around the sphere. Congratulations on another year around the sun!
 
-<img width="200" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/80df27d5-8a52-4363-8aaf-a0fc0dfab1a9">
-<img width="200" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c94a1b7-c795-4155-a6d7-3fd062eeb339">
-<img width="200" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c64a88c-6e21-4e3b-a7ab-ac968c295f25">
+<img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/80df27d5-8a52-4363-8aaf-a0fc0dfab1a9">
+<img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c94a1b7-c795-4155-a6d7-3fd062eeb339">
+<img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c64a88c-6e21-4e3b-a7ab-ac968c295f25">
 
 ## Use:
 * **View the deployed website [here](https://birthday-wish-0kep.onrender.com)**
