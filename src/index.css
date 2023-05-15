@@ -19,6 +19,7 @@ code {
   align-items: center;
   color: white;
   font-size: 24px;
+  margin-top: 70px;
 }
 .btn-container {
   display: flex;
@@ -101,4 +102,34 @@ code {
   padding-left: 22px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.directions {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.disclaimer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-style: italic;
+}
+.birthday-wish {
+  color: white;
+}
+.astro1 {
+  width: 100px;
+  position:absolute;
+  top:140px;
+  left:900px;
+  z-index:1
+}
+.astro2 {
+  width: 80px;
+  position:absolute;
+  top:60px;
+  left:60px;
+  z-index:1
 }

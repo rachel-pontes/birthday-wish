@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# birthday-wish
+**Author:** Rachel Pontes 
+**Created:** May 2023 <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This program is a space themed birthday card. The first page asks you to input your name and birthday. The second page displays a six-line birthday poem written for you. The last page has an orbiting sphere with the 'NASA Picture of the Day' taken the day you were born rotated around the sphere. Congratulations on another year around the sun!
 
-## Available Scripts
 
-In the project directory, you can run:
+<img width="800" alt="Screenshot" src="https://user-images.githubusercontent.com/64368452/206534932-8726d434-e1cc-46f5-b1c7-8a513755e43a.png">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Basic Details:
+**Languages & Tools:** JavaScript, React.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Main Features:
+* **Writing a Poem** <br/>
+Uses the OpenAI API 'text-davinci-003' model to write a six-line rhyming birthday poem using your name as input. 
+* **Fetching NASA Picture of the Day** <br/>
+Uses the NASA API to fetch the picture taken on the date inputted.
+* **Rotates the picture in an orbit** <br/>
+_Note: Full credit to Adam M. Victor for this feature. I modified their code to change the picture orbited. Find their code [here](https://codepen.io/adamvictor0012/pen/LQNJdV)._
+Rotates the two dimensional picture around a sphere and orbits it. Stars surrounding the sphere move towards the screen.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation:
 
-### `npm run build`
+**Running this project locally** requires NodeJS and yarn/npm. To install the required packages, run the following command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```npm install```
