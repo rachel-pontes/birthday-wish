@@ -5,7 +5,8 @@
 This program is a space themed birthday card. The first page asks you to input your name and birthday. The second page displays a six-line birthday poem written for you. The last page has an orbiting sphere with the 'NASA Picture of the Day' taken the day you were born rotated around the sphere. Congratulations on another year around the sun!
 
 
-<img width="800" alt="Screenshot" src="https://user-images.githubusercontent.com/64368452/206534932-8726d434-e1cc-46f5-b1c7-8a513755e43a.png">
+<img width="800" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/80df27d5-8a52-4363-8aaf-a0fc0dfab1a9">
+">
 
 
 ## Basic Details:
