@@ -6,8 +6,7 @@ This program is a space themed birthday card. The first page asks you to input y
 
 
 <img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/80df27d5-8a52-4363-8aaf-a0fc0dfab1a9">
-">
-<img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/6f5f0537-aba2-4853-ad7b-880367e84b34">
+<img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c94a1b7-c795-4155-a6d7-3fd062eeb339">
 <img width="300" alt="Screenshot" src="https://github.com/rachel-pontes/birthday-wish/assets/115891613/5c64a88c-6e21-4e3b-a7ab-ac968c295f25">
 
 ## Basic Details:
